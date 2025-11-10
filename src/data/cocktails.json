@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Manhattan",
+    "ingredients": ["2 oz rye whiskey", "1 oz sweet vermouth", "2 dashes Angostura bitters"],
+    "instructions": "Stir ingredients with ice, strain into a chilled coupe glass, and garnish with a cherry.",
+    "garnish": "Cherry",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "A timeless classic. Use a bold rye whiskey and good vermouth for balance."
+  },
+  {
+    "name": "Black Manhattan",
+    "ingredients": ["2 oz rye whiskey", "1 oz Averna amaro", "1 dash Angostura bitters", "1 dash orange bitters"],
+    "instructions": "Stir ingredients with ice until chilled, strain into a coupe glass, and garnish with a cherry or orange peel.",
+    "garnish": "Cherry or orange peel",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "A darker twist on the Manhattan, richer and slightly herbal from the amaro."
+  },
+  {
+    "name": "Old Fashioned",
+    "ingredients": ["2 oz bourbon", "1 sugar cube", "2 dashes Angostura bitters", "Few dashes plain water"],
+    "instructions": "Muddle sugar and bitters with water, add bourbon, stir with ice, and garnish with orange twist.",
+    "garnish": "Orange twist",
+    "baseSpirit": "Whiskey",
+    "glass": "Rocks",
+    "notes": "Simple, smooth, and spirit-forward. The benchmark for whiskey cocktails."
+  },
+  {
+    "name": "Sazerac",
+    "ingredients": ["2 oz rye whiskey", "1 sugar cube", "3 dashes Peychaud’s bitters", "Absinthe rinse"],
+    "instructions": "Rinse a chilled rocks glass with absinthe. Muddle sugar and bitters, add whiskey, stir with ice, and strain into the prepared glass.",
+    "garnish": "Lemon peel",
+    "baseSpirit": "Whiskey",
+    "glass": "Rocks",
+    "notes": "A New Orleans classic—aromatic, potent, and rich in history."
+  },
+  {
+    "name": "Dry Martini",
+    "ingredients": ["2 ½ oz gin", "½ oz dry vermouth"],
+    "instructions": "Stir ingredients with ice, strain into a chilled martini glass, and garnish with a lemon twist or olive.",
+    "garnish": "Lemon twist or olive",
+    "baseSpirit": "Gin",
+    "glass": "Martini",
+    "notes": "Elegant and crisp. Adjust vermouth ratio to taste—less for drier, more for balance."
+  },
+  {
+    "name": "Pisco Sour",
+    "ingredients": ["2 oz pisco", "1 oz lime juice", "¾ oz simple syrup", "1 egg white"],
+    "instructions": "Shake all ingredients without ice, then shake again with ice. Strain into a coupe glass and garnish with Angostura bitters.",
+    "garnish": "Angostura bitters",
+    "baseSpirit": "Pisco",
+    "glass": "Coupe",
+    "notes": "Silky and tart with a light foam cap. A South American favorite."
+  },
+  {
+    "name": "Paper Plane",
+    "ingredients": ["¾ oz bourbon", "¾ oz Aperol", "¾ oz Amaro Nonino", "¾ oz lemon juice"],
+    "instructions": "Shake all ingredients with ice and strain into a coupe glass.",
+    "garnish": "None",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "Modern and balanced—equal parts sweet, bitter, and sour perfection."
+  },
+  {
+    "name": "Cosmopolitan",
+    "ingredients": ["1 ½ oz vodka", "1 oz cranberry juice", "½ oz triple sec", "½ oz lime juice"],
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass. Garnish with a lime twist.",
+    "garnish": "Lime twist",
+    "baseSpirit": "Vodka",
+    "glass": "Coupe",
+    "notes": "Bright, tart, and sophisticated. The ultimate 90s revival done right."
+  },
+  {
+    "name": "Aperol Spritz",
+    "ingredients": ["3 oz prosecco", "2 oz Aperol", "1 oz soda water"],
+    "instructions": "Combine prosecco and Aperol in a glass with ice. Top with soda water and garnish with an orange slice.",
+    "garnish": "Orange slice",
+    "baseSpirit": "Aperol",
+    "glass": "Wine",
+    "notes": "Light and refreshing. Perfect for warm afternoons or brunch."
+  },
+  {
+    "name": "Perfect Manhattan",
+    "ingredients": ["2 oz rye whiskey", "½ oz sweet vermouth", "½ oz dry vermouth", "2 dashes Angostura bitters"],
+    "instructions": "Stir ingredients with ice, strain into a chilled coupe glass, and garnish with a cherry or lemon twist.",
+    "garnish": "Cherry or lemon twist",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "A refined Manhattan with half sweet and half dry vermouth—balanced and nuanced."
+  },
+  {
+    "name": "Margarita",
+    "ingredients": ["2 oz tequila", "1 oz triple sec", "1 oz lime juice"],
+    "instructions": "Shake all ingredients with ice and strain into a salt-rimmed margarita glass.",
+    "garnish": "Lime wheel, salt rim",
+    "baseSpirit": "Tequila",
+    "glass": "Margarita",
+    "notes": "Bright and zesty. Balance your lime and sweetness for a perfect sip."
+  },
+  {
+    "name": "Lion’s Tail",
+    "ingredients": ["2 oz bourbon", "½ oz allspice dram", "½ oz lime juice", "½ oz simple syrup", "2 dashes Angostura bitters"],
+    "instructions": "Shake ingredients with ice and strain into a coupe glass. Garnish with a lime twist.",
+    "garnish": "Lime twist",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "A hidden gem—spicy and rich with warm baking spice notes."
+  },
+  {
+    "name": "Gold Rush",
+    "ingredients": ["2 oz bourbon", "¾ oz lemon juice", "¾ oz honey syrup"],
+    "instructions": "Shake all ingredients with ice and strain into a rocks glass over fresh ice.",
+    "garnish": "Lemon twist",
+    "baseSpirit": "Whiskey",
+    "glass": "Rocks",
+    "notes": "Smooth, simple, and bright. A modern whiskey classic."
+  },
+  {
+    "name": "Brown Derby",
+    "ingredients": ["1 ½ oz bourbon", "1 oz grapefruit juice", "½ oz honey syrup"],
+    "instructions": "Shake all ingredients with ice and strain into a coupe glass.",
+    "garnish": "Grapefruit twist",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "Light and citrusy with honey sweetness—balanced and refreshing."
+  },
+  {
+    "name": "Whiskey Sour",
+    "ingredients": ["2 oz whiskey", "¾ oz lemon juice", "½ oz simple syrup", "Optional: egg white"],
+    "instructions": "Shake all ingredients with ice (dry shake first if using egg white). Strain into a rocks glass over ice and garnish with a cherry or orange slice.",
+    "garnish": "Cherry or orange slice",
+    "baseSpirit": "Whiskey",
+    "glass": "Rocks",
+    "notes": "A perfect mix of tart and sweet. Add egg white for extra smoothness."
+  },
+  {
+  "name": "Bee’s Knees",
+  "ingredients": ["2 oz gin", "¾ oz fresh lemon juice", "½ oz honey syrup"],
+  "instructions": "Shake all ingredients with ice until well-chilled, then strain into a chilled coupe glass. Garnish with a lemon twist.",
+  "garnish": "Lemon twist",
+  "baseSpirit": "Gin",
+  "glass": "Coupe",
+  "notes": "A Prohibition-era classic: floral gin meets bright lemon and smooth honey for a crisp, sweet-tart sip."
+},
+{
+  "name": "Boulevardier",
+  "ingredients": ["1¼ oz rye whiskey (or bourbon)", "1 oz Campari", "1 oz sweet vermouth"],
+  "instructions": "Stir whiskey (or bourbon), Campari and sweet vermouth with ice until well chilled. Strain into a chilled rocks glass (or coupé) and garnish with an orange twist.",
+  "garnish": "Orange twist",
+  "baseSpirit": "Whiskey",
+  "glass": "Rocks",
+  "notes": "A rich & bittersweet variation of the Negroni—warm from whiskey, sharp from Campari, balanced by sweet vermouth."
+},
+{
+  "name": "Clover Club",
+  "ingredients": ["2 oz gin", "½ oz fresh lemon juice", "½ oz raspberry syrup", "1 egg white"],
+  "instructions": "Add gin, lemon juice, raspberry syrup and egg white into a shaker with ice; shake vigorously until chilled. Strain into a chilled coupe glass and garnish with 3 raspberries.",
+  "garnish": "3 raspberries",
+  "baseSpirit": "Gin",
+  "glass": "Coupe",
+  "notes": "A pre-Prohibition classic from Philadelphia—floral gin, tart lemon, sweet raspberry and silky foam from the egg white."
+}
+
+
+]

@@ -1,0 +1,158 @@
+/* ---------- Global resets ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Base styles ---------- */
+html, body, #root {
+  height: 100%;
+  font-family: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  background:
+    radial-gradient(140% 60% at 50% 0%, rgba(0,0,0,.10) 0%, rgba(0,0,0,.06) 25%, rgba(0,0,0,.02) 50%, rgba(0,0,0,0) 70%),
+    radial-gradient(120% 80% at 50% 110%, rgba(0,0,0,.50) 0%, rgba(0,0,0,.30) 25%, rgba(0,0,0,.12) 45%, rgba(0,0,0,0) 70%),
+    linear-gradient(to bottom, #99B898 0%, #CFA392 35%, #E08488 55%, #E84A5F 70%, #2A363B 100%);
+  background-blend-mode: normal, normal, normal, multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* keep app width steady */
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2A363B;
+}
+
+/* ---------- Layout ---------- */
+.menu-container {
+  width: 100%;
+  max-width: 400px;
+  min-width: 360px;
+  height: 90vh;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-card {
+  position: relative;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 16px 32px rgba(18,22,24,0.35);
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-right: 12px; /* back to normal */
+}
+
+/* ---------- Sticky header ---------- */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(42,54,59,.06);
+  transition: box-shadow .25s ease;
+}
+.sticky-header.scrolled { box-shadow: 0 4px 10px rgba(42,54,59,.10); }
+
+.menu-header { text-align: center; padding: 14px 0 6px; }
+.menu-header h1 { font-size: 1.4rem; font-weight: 600; }
+.sticky-header.scrolled .menu-header h1 { font-size: 1.2rem; }
+
+/* ---------- Search ---------- */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #FFF2F3;
+  border: 1px solid #F3C6C9;
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin: 0 12px 10px;
+}
+.search-bar input {
+  border: none; outline: none; background: transparent;
+  font-size: .95rem; color: #2A363B; flex: 1; margin-left: 6px;
+}
+
+/* ---------- Filter ---------- */
+.filters { display: flex; justify-content: center; margin: 0 12px 12px; }
+.filters select {
+  width: 100%; max-width: 380px; padding: 8px 10px; border-radius: 10px;
+  border: 1px solid #F3C6C9; background: #FFFDFD; font-size: .9rem; color: #2A363B;
+  transition: border-color .2s, box-shadow .2s;
+}
+.filters select:focus { border-color: #E84A5F; box-shadow: 0 0 0 3px rgba(232,74,95,.12); }
+
+/* ---------- List ---------- */
+.cocktail-list {
+  list-style: none; margin: 0; padding: 16px;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.cocktail-list li {
+  display: flex; align-items: center;
+  padding: 12px 10px; border-radius: 12px; cursor: pointer;
+  transition: background .2s, transform .2s;
+}
+.cocktail-list li:hover { background: #FFF5F5; transform: translateY(-1px); }
+
+.icon {
+  font-size: 1.5rem; margin-right: 10px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; line-height: 1;
+}
+
+.cocktail-list li > div { flex: 1; min-width: 0; }
+
+.name { font-weight: 600; color: #2A363B; margin: 0 0 2px 0; line-height: 1.3; }
+
+/* 2-line ingredient preview */
+.ingredients {
+  color: #555; font-size: .9rem; line-height: 1.4;
+  overflow: hidden; text-overflow: ellipsis; white-space: normal;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+  max-height: 2.8em; word-break: break-word; margin: 0;
+}
+
+/* ---------- Loader / Empty ---------- */
+.loader { text-align: center; color: #7E8A88; font-size: .9rem; padding: 20px; }
+.no-results { text-align: center; color: #7E8A88; font-size: .95rem; margin-top: 20px; }
+
+/* ---------- Detail view ---------- */
+.back-btn {
+  background: none; border: none; color: #E84A5F;
+  display: flex; align-items: center; gap: 4px; font-size: .9rem;
+  margin: 16px; cursor: pointer; transition: transform .2s, color .2s;
+}
+.back-btn:hover { transform: scale(1.05); color: #FF6F80; }
+
+.recipe-name { font-size: 1.6rem; font-weight: 700; margin: 0 16px 12px; color: #2A363B; }
+
+h2 { color: #E84A5F; font-size: 1.1rem; font-weight: 600; margin: 16px 16px 8px; border-left: 4px solid #E84A5F; padding-left: 8px; }
+
+.ingredients-list, .instructions, .garnish, .info-content, .notes {
+  background: #FFF8F8; padding: 12px 14px; border-radius: 12px; margin: 0 16px 16px;
+  font-size: .95rem; line-height: 1.5; color: #2A363B; box-shadow: 0 2px 4px rgba(42,54,59,.10);
+}
+
+/* ---------- Scrollbar ---------- */
+.menu-card::-webkit-scrollbar { width: 8px; }
+.menu-card::-webkit-scrollbar-track { background: rgba(255,255,255,.08); border-radius: 8px; margin: 4px; }
+.menu-card::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #E84A5F, #2A363B);
+  border-radius: 8px; transition: background .3s ease; box-shadow: inset 0 0 4px rgba(255,255,255,.4);
+}
+.menu-card::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, #D53E55, #1E262B); }
+.menu-card { scrollbar-color: #E84A5F rgba(255,255,255,.08); scrollbar-width: thin; }
