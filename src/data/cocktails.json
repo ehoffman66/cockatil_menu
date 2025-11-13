@@ -9,15 +9,6 @@
     "notes": "A timeless classic. Use a bold rye whiskey and good vermouth for balance."
   },
   {
-    "name": "Black Manhattan",
-    "ingredients": ["2 oz rye whiskey", "1 oz Averna amaro", "1 dash Angostura bitters", "1 dash orange bitters"],
-    "instructions": "Stir ingredients with ice until chilled, strain into a coupe glass, and garnish with a cherry or orange peel.",
-    "garnish": "Cherry or orange peel",
-    "baseSpirit": "Whiskey",
-    "glass": "Coupe",
-    "notes": "A darker twist on the Manhattan, richer and slightly herbal from the amaro."
-  },
-  {
     "name": "Old Fashioned",
     "ingredients": ["2 oz bourbon", "1 sugar cube", "2 dashes Angostura bitters", "Few dashes plain water"],
     "instructions": "Muddle sugar and bitters with water, add bourbon, stir with ice, and garnish with orange twist.",
@@ -135,32 +126,336 @@
     "notes": "A perfect mix of tart and sweet. Add egg white for extra smoothness."
   },
   {
-  "name": "Bee’s Knees",
-  "ingredients": ["2 oz gin", "¾ oz fresh lemon juice", "½ oz honey syrup"],
-  "instructions": "Shake all ingredients with ice until well-chilled, then strain into a chilled coupe glass. Garnish with a lemon twist.",
-  "garnish": "Lemon twist",
-  "baseSpirit": "Gin",
-  "glass": "Coupe",
-  "notes": "A Prohibition-era classic: floral gin meets bright lemon and smooth honey for a crisp, sweet-tart sip."
-},
-{
-  "name": "Boulevardier",
-  "ingredients": ["1¼ oz rye whiskey (or bourbon)", "1 oz Campari", "1 oz sweet vermouth"],
-  "instructions": "Stir whiskey (or bourbon), Campari and sweet vermouth with ice until well chilled. Strain into a chilled rocks glass (or coupé) and garnish with an orange twist.",
+    "name": "Bee’s Knees",
+    "ingredients": ["2 oz gin", "¾ oz fresh lemon juice", "½ oz honey syrup"],
+    "instructions": "Shake all ingredients with ice until well-chilled, then strain into a chilled coupe glass. Garnish with a lemon twist.",
+    "garnish": "Lemon twist",
+    "baseSpirit": "Gin",
+    "glass": "Coupe",
+    "notes": "A Prohibition-era classic: floral gin meets bright lemon and smooth honey for a crisp, sweet-tart sip."
+  },
+  {
+    "name": "Boulevardier",
+    "ingredients": ["1¼ oz rye whiskey (or bourbon)", "1 oz Campari", "1 oz sweet vermouth"],
+    "instructions": "Stir whiskey (or bourbon), Campari and sweet vermouth with ice until well chilled. Strain into a chilled rocks glass (or coupé) and garnish with an orange twist.",
+    "garnish": "Orange twist",
+    "baseSpirit": "Whiskey",
+    "glass": "Rocks",
+    "notes": "A rich & bittersweet variation of the Negroni—warm from whiskey, sharp from Campari, balanced by sweet vermouth."
+  },
+  {
+    "name": "Clover Club",
+    "ingredients": ["2 oz gin", "½ oz fresh lemon juice", "½ oz raspberry syrup", "1 egg white"],
+    "instructions": "Add gin, lemon juice, raspberry syrup and egg white into a shaker with ice; shake vigorously until chilled. Strain into a chilled coupe glass and garnish with 3 raspberries.",
+    "garnish": "3 raspberries",
+    "baseSpirit": "Gin",
+    "glass": "Coupe",
+    "notes": "A pre-Prohibition classic from Philadelphia—floral gin, tart lemon, sweet raspberry and silky foam from the egg white."
+  },
+  {
+    "name": "Negroni",
+    "ingredients": ["1 oz gin", "1 oz Campari", "1 oz sweet vermouth"],
+    "instructions": "Stir gin, Campari and sweet vermouth with ice until well-chilled, then strain into a rocks glass over a large ice cube. Garnish with an orange peel.",
+    "garnish": "Orange peel",
+    "baseSpirit": "Gin",
+    "glass": "Rocks",
+    "notes": "A true classic built on equal parts — bold, bittersweet and deceptively simple. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "name": "Black Manhattan",
+    "ingredients": ["2 oz rye whiskey", "1 oz Averna amaro", "1 dash Angostura bitters", "1 dash orange bitters"],
+    "instructions": "Stir rye whiskey, Averna amaro, and both bitters with ice until chilled, then strain into a chilled coupe or cocktail glass. Garnish with a brandied cherry or orange peel.",
+    "garnish": "Brandied cherry or orange peel",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "A modern Manhattan riff — swapping out sweet vermouth for amaro to deepen the flavor profile. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "name": "French 75",
+    "ingredients": ["1 oz gin", "½ oz lemon juice (fresh)", "½ oz simple syrup", "3 oz Champagne (or other dry sparkling wine)"],
+    "instructions": "Shake gin, lemon juice and simple syrup with ice, strain into a Champagne flute (or coupe) and top with sparkling wine. Garnish with a lemon twist.",
+    "garnish": "Lemon twist",
+    "baseSpirit": "Gin",
+    "glass": "Champagne flute",
+    "notes": "Effervescent and elegant — a fizzy, celebratory classic combining gin, lemon and bubbly. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "name": "Rob Roy",
+    "ingredients": ["2 oz Scotch whisky", "¾ oz sweet vermouth", "2-3 dashes Angostura bitters"],
+    "instructions": "Stir Scotch whisky, sweet vermouth and bitters with ice until well-chilled, then strain into a chilled cocktail glass. Garnish with a brandied cherry or lemon twist.",
+    "garnish": "Brandied cherry or lemon twist",
+    "baseSpirit": "Whisky",
+    "glass": "Cocktail (Coupe or Nick & Nora)",
+    "notes": "A Manhattan-style cocktail switched to Scotch — rich, refined and rooted in 19th-century bar history. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "name": "Old Pal",
+    "ingredients": ["1 oz rye whiskey", "1 oz Campari", "1 oz dry vermouth"],
+    "instructions": "Stir rye whiskey, Campari and dry vermouth with ice until well-chilled, then strain into a chilled coupe glass. Garnish with a lemon twist.",
+    "garnish": "Lemon twist",
+    "baseSpirit": "Whiskey",
+    "glass": "Coupe",
+    "notes": "A sharper, dryer variation on the Negroni/Boulevardier theme — equal parts rye, Campari and dry vermouth. :contentReference[oaicite:4]{index=4}"
+  },
+  {
+    "name": "Americano",
+    "ingredients": ["1½ oz Campari", "1½ oz sweet vermouth", "Top with soda water"],
+    "instructions": "Fill a highball glass with ice, pour in Campari and sweet vermouth, top with chilled soda water and stir gently. Garnish with an orange twist.",
+    "garnish": "Orange twist",
+    "baseSpirit": "Campari / Vermouth (aperitif-style)",
+    "glass": "Highball",
+    "notes": "Bitter-sweet and bubbly — a lighter aperitif cocktail built from Campari and vermouth then topped with soda. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "name": "Whiskey Highball",
+    "ingredients": ["2 oz whiskey", "4 oz soda water"],
+    "instructions": "Fill a highball glass with ice, pour in whiskey, top with soda water, stir gently, and optionally garnish with a lemon wedge.",
+    "garnish": "Lemon wedge (optional)",
+    "baseSpirit": "Whiskey",
+    "glass": "Highball",
+    "notes": "Minimalist and refreshing — whiskey and soda combine for a clean, effervescent serve. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "name": "White Lady",
+    "ingredients": ["2 oz gin", "½ oz orange liqueur (or triple sec)", "½ oz fresh lemon juice", "1 egg white"],
+    "instructions": "Add gin, orange liqueur, lemon juice and egg white into a shaker and dry-shake without ice; then add ice and shake again until well chilled. Strain into a chilled cocktail glass and garnish with a lemon twist.",
+    "garnish": "Lemon twist",
+    "baseSpirit": "Gin",
+    "glass": "Coupe",
+    "notes": "A 1920s classic — gin meets citrus and orange liqueur, smoothed out by the egg white. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "name": "Between the Sheets",
+    "ingredients": ["1 oz cognac", "1 oz light rum", "1 oz triple sec (orange liqueur)", "¼ oz fresh lemon juice"],
+    "instructions": "Add cognac, light rum, triple sec and lemon juice into a shaker with ice; shake until chilled and strain into a chilled cocktail glass. Garnish with a flamed orange peel if desired.",
+    "garnish": "Flamed orange peel",
+    "baseSpirit": "Cognac / Rum",
+    "glass": "Coupe",
+    "notes": "A bold Prohibition-era variation on the Sidecar — equal parts base spirits and orange liqueur, with a splash of lemon. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "name": "Sidecar",
+    "ingredients": ["1½ oz cognac", "¾ oz orange liqueur (such as Cointreau)", "¾ oz fresh lemon juice"],
+    "instructions": "Coat the rim of a chilled cocktail glass with sugar (optional). Add ingredients to a shaker with ice, shake until well chilled, strain into the prepared glass, and garnish with an orange twist.",
+    "garnish": "Orange twist",
+    "baseSpirit": "Cognac",
+    "glass": "Cocktail (Coupe)",
+    "notes": "A classic cocktail likely born around World War I — cognac, citrus and orange liqueur in a crisp, tart serve. :contentReference[oaicite:4]{index=4}"
+  },
+    {
+    "name": "Dark and Stormy",
+    "ingredients": ["2 oz dark rum", "4–5 oz ginger beer", "½ oz fresh lime juice (optional)"],
+    "instructions": "Fill a highball glass with ice, pour in the rum, top with ginger beer, stir gently and optionally add lime juice. Garnish with a lime wedge.",
+    "garnish": "Lime wedge",
+    "baseSpirit": "Rum",
+    "glass": "Highball",
+    "notes": "Refreshing and spicy — dark rum meets ginger beer in a classic long drink. ([liquor.com](https://www.liquor.com/recipes/dark-n-stormy/) )"
+  },
+  {
+    "name": "High Five",
+    "ingredients": ["1½ oz gin", "½ oz Aperol (or bittersweet orange-red aperitivo)", "1 oz pink grapefruit juice", "½ oz fresh lime juice", "½ oz simple syrup"],
+    "instructions": "Shake all ingredients with ice and strain into a chilled coupe glass. Garnish with the eponymous ‘high five’.",
+    "garnish": "High five (fun-garnish)",
+    "baseSpirit": "Gin",
+    "glass": "Coupe",
+    "notes": "Bright, citrusy and a little bitter — a modern cocktail with a playful twist. (see Difford’s/other sources) "
+  },
+  {
+    "name": "Mojito",
+    "ingredients": ["2 oz white rum", "¾ oz fresh lime juice", "½ oz simple syrup", "6-8 fresh mint leaves", "Top with soda water"],
+    "instructions": "Lightly muddle mint leaves with simple syrup and lime juice in a highball glass, add ice and rum, stir, top with soda water, and gently stir again. Garnish with a mint sprig and lime wheel.",
+    "garnish": "Mint sprig + lime wheel",
+    "baseSpirit": "Rum",
+    "glass": "Highball",
+    "notes": "Mint, lime, sugar and rum — the Cuban classic that’s crisp, refreshing and timeless. ([liquor.com](https://www.liquor.com/recipes/mojito/) )"
+  },
+  {
+    "name": "Mai Tai",
+    "ingredients": ["1 oz dark Jamaican rum", "1 oz rhum agricole (or aged rum)", "½ oz orange curaçao", "1 oz fresh lime juice", "½ oz orgeat", "¼ oz simple syrup"],
+    "instructions": "Shake all ingredients with ice and strain (un-strained if using crushed ice) into a double old-fashioned glass with crushed ice. Garnish with a spent lime shell and a mint sprig.",
+    "garnish": "Mint sprig + lime shell",
+    "baseSpirit": "Rum",
+    "glass": "Rocks / Double Old-Fashioned",
+    "notes": "The tiki-classic rum concoction — nutty orgeat, citrus and quality rum deliver the authentic Mai Tai experience. ([liquor.com](https://www.liquor.com/recipes/traditional-mai-tai/) )"
+  },
+    {
+    "name": "Tom Collins",
+    "ingredients": ["2 oz gin", "1 oz fresh lemon juice", "½ oz simple syrup", "Club soda to top"],
+    "instructions": "Combine gin, lemon juice and simple syrup in a highball glass with ice, stir, then top with club soda and garnish with a lemon wheel (and optionally a cherry).",
+    "garnish": "Lemon wheel (optional cherry)",
+    "baseSpirit": "Gin",
+    "glass": "Highball",
+    "notes": "A tall, refreshing Collins-style cocktail—gin, citrus, sugar and fizz. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "name": "Last Word",
+    "ingredients": ["¾ oz gin", "¾ oz green Chartreuse", "¾ oz maraschino liqueur", "¾ oz fresh lime juice"],
+    "instructions": "Pour all ingredients into a shaker with ice, shake until well-chilled, and strain into a chilled coupe glass. Garnish (optional) with a cherry or lime twist.",
+    "garnish": "Cherry or lime twist (optional)",
+    "baseSpirit": "Gin",
+    "glass": "Coupe",
+    "notes": "A revival classic of equal-parts gin, Chartreuse, maraschino and lime—herbal, tart and perfectly balanced. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "name": "Hot Toddy",
+    "ingredients": ["2 oz whiskey (bourbon, rye or Scotch)", "2 tsp demerara sugar or brown sugar", "¼ oz fresh lemon juice", "Boiling water to fill mug", "4 cloves", "1 lemon wheel or peel"],
+    "instructions": "Warm a mug with boiling water, discard the water, then add the sugar and cloves and fill about halfway with fresh boiling water to dissolve sugar. Add lemon juice and whiskey, stir, and top with more boiling water. Garnish with a lemon wheel or peel studded with cloves.",
+    "garnish": "Lemon wheel or peel studded with cloves",
+    "baseSpirit": "Whiskey",
+    "glass": "Mug",
+    "notes": "The ultimate cozy warm drink—whiskey, sugar, lemon and hot water. Great for cold evenings. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "name": "Boston Sour",
+    "ingredients": ["2 oz whiskey (bourbon preferred)", "¾ oz fresh lemon juice", "½ oz simple syrup", "½ oz egg white (optional for foam)"],
+    "instructions": "Dry-shake (without ice) the whiskey, lemon juice, simple syrup and egg white (if using) for 15 s; then add ice and shake again until well-chilled. Strain into a coupe or rocks glass. Garnish with a lemon twist or cherry.",
+    "garnish": "Lemon twist or cherry",
+    "baseSpirit": "Whiskey",
+    "glass": "Rocks or Coupe",
+    "notes": "Essentially a whiskey sour with an egg-white foam top—smooth, tart, and elegant. :contentReference[oaicite:4]{index=4}"
+  },
+  {
+  "name": "Fancy Free",
+  "ingredients": ["2 oz bourbon", "½ oz maraschino liqueur", "2 dashes Angostura bitters", "1 dash orange bitters"],
+  "instructions": "Stir bourbon, maraschino liqueur, and bitters with ice until chilled, then strain into a rocks glass over a large ice cube. Garnish with an orange twist.",
   "garnish": "Orange twist",
   "baseSpirit": "Whiskey",
   "glass": "Rocks",
-  "notes": "A rich & bittersweet variation of the Negroni—warm from whiskey, sharp from Campari, balanced by sweet vermouth."
-},
-{
-  "name": "Clover Club",
-  "ingredients": ["2 oz gin", "½ oz fresh lemon juice", "½ oz raspberry syrup", "1 egg white"],
-  "instructions": "Add gin, lemon juice, raspberry syrup and egg white into a shaker with ice; shake vigorously until chilled. Strain into a chilled coupe glass and garnish with 3 raspberries.",
-  "garnish": "3 raspberries",
-  "baseSpirit": "Gin",
+  "notes": "A simple, spirit-forward Old Fashioned variation that swaps sugar for maraschino liqueur, adding subtle sweetness and cherry-almond depth."
+  },
+  {
+  "name": "Bourbon Smash",
+  "ingredients": ["2 oz bourbon", "¾ oz simple syrup", "3 lemon wedges", "4 mint leaves"],
+  "instructions": "Muddle the lemon wedges in simple syrup. Add bourbon, mint leaves and ice, shake until chilled. Double-strain into a rocks glass over fresh ice and garnish with a mint sprig.",
+  "garnish": "Mint sprig",
+  "baseSpirit": "Whiskey",
+  "glass": "Rocks",
+  "notes": "A refreshing 19th-century style cocktail: bourbon meets muddled lemon and mint for a drink that's vivid, crisp and minty. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+  "name": "Rusty Nail",
+  "ingredients": ["2 oz Scotch whisky", "1 oz Drambuie"],
+  "instructions": "Add Scotch and Drambuie to a rocks glass with ice and stir gently until chilled. Garnish with a lemon twist.",
+  "garnish": "Lemon twist",
+  "baseSpirit": "Whisky",
+  "glass": "Rocks",
+  "notes": "A smooth, spirit-forward classic—Scotch softened and sweetened by the honey-herbal character of Drambuie."
+  },
+  {
+  "name": "Mint Julep",
+  "ingredients": ["2 oz bourbon", "½ oz simple syrup", "8–10 fresh mint leaves"],
+  "instructions": "Gently muddle mint with simple syrup in a julep cup. Add bourbon and pack tightly with crushed ice. Stir until the cup frosts, then top with more crushed ice. Garnish with a large mint bouquet.",
+  "garnish": "Mint bouquet",
+  "baseSpirit": "Whiskey",
+  "glass": "Julep cup (or rocks glass)",
+  "notes": "A Kentucky Derby classic—icy, aromatic, and mint-forward with a smooth bourbon backbone."
+  },
+  {
+  "name": "Moscow Mule",
+  "ingredients": ["2 oz vodka", "½ oz fresh lime juice", "3 oz ginger beer"],
+  "instructions": "Fill a copper mug or highball glass with ice, add vodka and lime juice, top with chilled ginger beer, stir gently, and garnish with a lime wheel.",
+  "garnish": "Lime wheel",
+  "baseSpirit": "Vodka",
+  "glass": "Copper mug (or highball glass)",
+  "notes": "Simple, crisp and spicy — vodka meets ginger beer and lime in a refreshing long-drink classic. ([liquor.com](https://www.liquor.com/recipes/moscow-mule-cocktail-recipe/) )"
+  },
+  {
+  "name": "Daiquiri",
+  "ingredients": ["2 oz light rum", "1 oz fresh lime juice", "¾ oz demerara sugar syrup"],
+  "instructions": "Add rum, lime juice and demerara syrup into a shaker with ice. Shake until well-chilled and strain into a chilled coupe glass. Garnish with a lime twist.",
+  "garnish": "Lime twist",
+  "baseSpirit": "Rum",
   "glass": "Coupe",
-  "notes": "A pre-Prohibition classic from Philadelphia—floral gin, tart lemon, sweet raspberry and silky foam from the egg white."
-}
-
-
+  "notes": "A simple, elegant Cuban classic — rum, lime and sugar in perfect balance. ([liquor.com](https://www.liquor.com/recipes/daiquiri/) )"
+  },
+  {
+  "name": "Daiquiri",
+  "ingredients": ["2 oz light rum", "1 oz fresh lime juice", "¾ oz demerara sugar syrup"],
+  "instructions": "Add rum, lime juice and demerara syrup into a shaker with ice. Shake until well-chilled and strain into a chilled coupe glass. Garnish with a lime twist.",
+  "garnish": "Lime twist",
+  "baseSpirit": "Rum",
+  "glass": "Coupe",
+  "notes": "A simple, elegant Cuban classic — rum, lime and sugar in perfect balance. ([liquor.com](https://www.liquor.com/recipes/daiquiri/) )"
+  },
+  {
+    "name": "Amaretto Sour",
+    "ingredients": ["1½ oz amaretto liqueur", "¾ oz cask-proof bourbon", "1 oz fresh lemon juice", "1 teaspoon rich simple syrup", "½ oz egg white"],
+    "instructions": "Dry-shake all ingredients (without ice) to emulsify the egg white; then add ice and shake again until well-chilled. Strain into a rocks glass over fresh ice. Garnish with a lemon twist and two brandied cherries.",
+    "garnish": "Lemon twist + 2 brandied cherries",
+    "baseSpirit": "Amaretto / Bourbon",
+    "glass": "Rocks",
+    "notes": "A modern reinvention of the Amaretto Sour — nutty almond-liqueur meets fresh citrus, egg white foam and a precision bourbon float for depth. ([liquor.com](https://www.liquor.com/recipes/amaretto-sour/) )"
+  },
+  {
+    "name": "Gimlet",
+    "ingredients": ["2½ oz gin", "½ oz fresh lime juice", "½ oz simple syrup"],
+    "instructions": "Add gin, lime juice and simple syrup into a shaker with ice. Shake until well-chilled, then strain into a chilled cocktail glass (or rocks glass). Garnish with a lime wheel.",
+    "garnish": "Lime wheel",
+    "baseSpirit": "Gin",
+    "glass": "Cocktail (Coupe) or Rocks",
+    "notes": "A classic sour-style cocktail: gin meets lime and sugar in a crisp, tart serve — rooted in naval history and refined for modern tastes. ([liquor.com](https://www.liquor.com/recipes/gimlet/) )"
+  },
+  {
+    "name": "South Side",
+    "ingredients": ["2 oz gin", "1 oz fresh lemon juice", "1 oz simple syrup", "5 mint leaves"],
+    "instructions": "Gently muddle the mint leaves with the lemon juice in a shaker. Add gin, simple syrup and ice, then shake until well-chilled. Double-strain into a chilled coupe glass and garnish with a mint sprig.",
+    "garnish": "Mint sprig",
+    "baseSpirit": "Gin",
+    "glass": "Coupe",
+    "notes": "Bright, minty and crisp — a refreshing twist on the sour template with gin and citrus. Origins trace back to early 1900s speakeasy or club scenes. ([liquor.com](https://www.liquor.com/recipes/south-side/) )"
+  },
+  {
+    "name": "Paloma",
+    "ingredients": ["2 oz tequila (blanco)", "½ oz fresh lime juice", "4 oz grapefruit soda", "Pinch of salt"],
+    "instructions": "Add tequila, lime juice and a pinch of salt into a highball glass filled with ice, top with grapefruit soda, stir gently, and garnish with a lime wheel.",
+    "garnish": "Lime wheel",
+    "baseSpirit": "Tequila",
+    "glass": "Highball",
+    "notes": "Mexico’s national drink — light, fizzy and citrus-bright. A tequila base, fresh lime and grapefruit soda make this an easy crowd-pleaser. ([liquor.com](https://www.liquor.com/recipes/paloma/) )"
+  },
+  {
+    "name": "Cuba Libre",
+    "ingredients": ["2 oz rum", "Top with cola", "Juice of ¼ lime (and lime wedge)"],
+    "instructions": "Fill a highball glass with ice, add rum and lime juice, drop in the spent lime peel/wedge, top with cola and stir gently. Garnish with a lime wheel.",
+    "garnish": "Lime wheel",
+    "baseSpirit": "Rum",
+    "glass": "Highball",
+    "notes": "A long-drink classic from early 1900s Havana — rum, cola and fresh lime juice make this simple yet historic cocktail. ([liquor.com](https://www.liquor.com/recipes/cuba-libre/) )"
+  },
+  {
+    "name": "Gin and Tonic",
+    "ingredients": ["2 oz gin", "4–5 oz tonic water", "Lime wedge"],
+    "instructions": "Fill a highball glass with ice, add gin, top with chilled tonic water, and gently stir. Garnish with a lime wedge.",
+    "garnish": "Lime wedge",
+    "baseSpirit": "Gin",
+    "glass": "Highball",
+    "notes": "Crisp, bubbly and refreshing — the classic highball where good tonic and plenty of ice make all the difference."
+  },
+  {
+    "name": "Lemon Drop",
+    "ingredients": ["2 oz vodka", "½ oz triple sec (orange liqueur)", "1 oz fresh lemon juice", "1 oz simple syrup"],
+    "instructions": "Coat the rim of a chilled cocktail glass with sugar. Add vodka, triple sec, lemon juice and simple syrup into a shaker with ice; shake until well-chilled and strain into the prepared glass.",
+    "garnish": "Sugared rim",
+    "baseSpirit": "Vodka",
+    "glass": "Cocktail (Coupe)",
+    "notes": "Bright, citrusy and sweet-tart — a modern classic often served with a sugar-rimmed glass. Invented in the 1970s. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "name": "Flip",
+    "ingredients": ["2 oz spirit of choice (rum, whiskey, brandy or port)", "1 whole egg", "½ oz simple syrup", "Freshly grated nutmeg"],
+    "instructions": "Add the spirit, whole egg and simple syrup into a shaker. Dry-shake (without ice) to emulsify, then add ice and shake again until well-chilled. Strain into a chilled coupe or small wine glass. Garnish with freshly grated nutmeg.",
+    "garnish": "Freshly grated nutmeg",
+    "baseSpirit": "Varies (Rum / Whiskey / Brandy / Port)",
+    "glass": "Coupe or Wine glass",
+    "notes": "A historic style of cocktail dating back to the 1600s — rich, creamy and warming. Made with a whole egg and nearly any base spirit."
+  },
+  {
+    "name": "White Russian",
+    "ingredients": ["2 oz vodka", "1 oz coffee liqueur (Kahlúa)", "1 oz heavy cream"],
+    "instructions": "Add vodka and coffee liqueur to a rocks glass filled with ice. Gently float or pour the heavy cream over the top and stir lightly if desired.",
+    "garnish": "None (optional: grated nutmeg)",
+    "baseSpirit": "Vodka",
+    "glass": "Rocks",
+    "notes": "Rich, creamy, and smooth — the classic coffee-liqueur cocktail popularized by *The Big Lebowski*."
+  }
 ]
