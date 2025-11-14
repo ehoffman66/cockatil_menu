@@ -457,5 +457,15 @@
     "baseSpirit": "Vodka",
     "glass": "Rocks",
     "notes": "Rich, creamy, and smooth — the classic coffee-liqueur cocktail popularized by *The Big Lebowski*."
+  },
+  {
+  "name": "Negroni Sour",
+  "ingredients": ["1½ oz gin", "¾ oz Campari", "1 oz amaro", "¾ oz fresh lemon juice", "¼ oz fresh orange juice", "¼ oz simple syrup (1:1)", "1 egg white"],
+  "instructions": "Dry shake all ingredients (without ice) to emulsify the egg white; then add ice and shake again until chilled. Strain into a chilled coupe or rocks glass. Garnish with an orange twist.",
+  "garnish": "Orange twist",
+  "baseSpirit": "Gin",
+  "glass": "Coupe or Rocks",
+  "notes": "A riff on the Negroni where citrus, egg white and amaro bring a sour‐cocktail texture to the bittersweet original."
   }
+
 ]
